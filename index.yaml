@@ -1,0 +1,6 @@
+indexes:
+  - kind: YourEntityKind
+    properties:
+      - name: numberOfYears
+      - name: zip
+        direction: asc
