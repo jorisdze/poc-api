@@ -8,7 +8,7 @@ import lombok.Data;
 
 @Data
 @AllArgsConstructor
-@Entity(name="YourEntityKind")
+@Entity(name="pocEntity")
 public class ApiModel {
 
     @Id
