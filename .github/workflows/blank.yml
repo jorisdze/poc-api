@@ -31,7 +31,7 @@ jobs:
           distribution: 'zulu'
 
       - name: step 1 - build application
-        run: mvn clean install
+        run: mvn package
         
   
       - name: step 1 - Log in to Docker Hub
